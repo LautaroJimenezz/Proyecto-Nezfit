@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- link de estilos -->
+    <link rel="stylesheet" href="stylebis.css">
+    <!-- link de fuentes -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- SEO -->
+    <link rel="shortcut icon" href="images/eldefinitivo.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Familia Nezfit</title>
+</head>
+<body>
+<header class="cabecera" >
+    <!-- Cabecera y logo -->
+    <section class="menu">
+        <a href="index.html"><img class="logogym" src="images/eldefinitivo.png" alt="Nezfit logo"></a>
+    </section>
+    <!-- Botones de menú -->
+    <section class="botones">
+        <a href="clases.html">Clases</a>
+        <a href="sedes.html">Sedes</a>
+        <a href="familia.html" class="nezfit">Familia Nezfit</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="presentacion.html">Quiénes somos</a>
+        <!-- Redes sociales -->
+        <nav class="redes">
+         <a href="https://www.twitter.com" target="_blank">
+         <i class="fab fa-twitter"></i></a>
+         <a href="https://www.instagram.com" target="_blank">
+         <i class="fab fa-instagram"></i></a>
+         <a href="https://www.facebook.com" target="_blank">
+         <i class="fab fa-facebook-square"></i></a>
+        </nav>
+    </section>
+</header>
+
+<!-- Sección de formulario -->
+<section class="titulo-formulario">
+    <!-- Título y subtítulo del formulario -->
+    <h1>Bienvenido a la familia</h1>
+    <h2>¿Estás listo para ser parte de Nezfit club?</h2>
+</section>
+<!-- Formulario -->
+<section class="formulario">
+    <form action="/Server/" method="POST" class="speaker-form">
+        <div class="form-row">
+            <label for="full-name">Nombre(s)</label>
+            <input type="text" id="full-name" name="nombre" placeholder="Juan" required>
+            <label for="surname">Apellido(s)</label>
+            <input type="text" id="surname" name="apellido" placeholder="González" required>
+            <label for="mobile">Celular</label>
+            <input type="text" id="mobile" name="celular" placeholder="(+54) 011" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@mail.com" required>
+
+            <fieldset class="legacy-form-row">
+                <legend>Sexo</legend>
+                <label for="talk" class="radio-label">Masculino</label>
+                <input type="radio" name="talk" id="talk">
+                <label for="talk" class="radio-label">Femenino</label>
+                <input type="radio" name="talk" id="talk">
+            </fieldset>
+
+            <label for="t-shirt">Sede</label>
+            <select name="t-shirt" id="t-shirt">
+                <option value="P">Palermo</option>
+                <option value="pm">Puerto Madero</option>
+                <option value="b">Belgrano</option>
+                <option value="r">Recoleta</option>
+                <option value="c">Caballito</option>
+                <option value="m">Microcentro</option>
+            </select>
+
+            <label for="mensaje">¿Qué esperas de la Familia Nezfit?</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <label for="check">Quiero recibir noticias de Nezfit Club</label>
+            <input type="checkbox" name="checkbox" id="check">
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+</section>
+
+<!-- footer -->
+<footer>
+    <!-- info de la empresa -->
+    <section class="info">
+        <strong class="brand">Nezfit club S.A</strong>
+        <p>Buenos Aires, Argentina</p>
+        <p>1123456789// 46789012</p>
+        <p>contacto@nezfit.com.ar</p>
+    </section>
+    <!-- copyright -->
+    <section class="copy">
+        <p>©copyright NEZFIT Todos los derechos reservados</p>
+    </section>
+</footer>
+ 
+</body>
+</html>
